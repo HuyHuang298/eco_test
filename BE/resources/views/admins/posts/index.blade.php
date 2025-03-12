@@ -311,8 +311,6 @@
                                         <a href="{{ route('posts.show', $post->id) }}" class="text-decoration-underline">
                                             Read more <i class="ri-arrow-right-line"></i>
                                         </a>
-
-                                        <!-- Đưa hành động xuống dưới -->
                                         <div class="post-actions d-flex justify-content-end">
                                             @can('update-posts', $post)
                                             <a href="{{ route('posts.edit', $post->id) }}"
